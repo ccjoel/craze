@@ -1,7 +1,9 @@
 #!/usr/bin/ruby
 
-for i in 1..5000
-   `touch bs/b_#{i}`
+`mkdir ics`
+
+for i in 1..1000
+   `touch ics/c_#{i}`
 	 `git add .`
 	 `git commit -m "adding #{i}"`
 end
