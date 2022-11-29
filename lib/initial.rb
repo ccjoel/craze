@@ -1,10 +1,10 @@
 #!/usr/bin/env ruby
 
-`mkdir lll`
+`mkdir lls`
 
-for i in 1..700
+for i in 1..1000
   puts i
-   `touch lll/l_#{i}`
+   `touch lls/s_#{i}`
 	 `git add .`
 	 `git commit -m "adding #{i}"`
 end
